@@ -9,8 +9,14 @@ lista_arquivos = os.listdir(caminho)
 
 locais = {
     "imagens": [".png", ".jpg"],
-    "pdfs" : [".pdf"]
-    
+    "pdfs" : [".pdf"],
+    "Documento Word" : [".docx"],
+    "Arquivo Executavel" : [".exe"],
+    "Videos" : [".mp4"],
+    "Power Point" : [".potx"],
+    "Arquivo Photoshop" : [".psd"],
+    "Textos não formatados" : [".txt"],
+    "Arquivos compactados" : [".compactar"]    
 }
 
 for arquivo in lista_arquivos:
